@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopAccessories</title>
+    <link rel="stylesheet" href="signIn.css">
+    <link rel="stylesheet" href="message.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Top-Accessories</h1>
+            <input id="email" name="email" type="email" placeholder="Enter your email adress...">
+            <input id="password" name="password" type="password" placeholder="Enter your password...">
+            <input type="button" id="signIn" value="SignIn" onclick="userValidation()">
+            <button id="signUp" onclick="window.location.href = '/signUp'">Sign Up</button>
+    </div>
+    
+    <div id="message-con">
+            <input id="close-message" type="button" value="X" onclick="hideMessage()">
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="signIn.js"></script>
+</body>
+
+</html>

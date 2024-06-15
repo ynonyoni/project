@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopAccessories</title>
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="message.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header-con">
+            <select class="select" id="sort" value="" onchange="getSelectedOption()">
+                <option value="" selected>Option to sort</option>
+                <option value="name">By name</option>
+                <option value="price">By price</option>
+            </select>
+            <h1>Top-Accessories</h1>
+            <input id="search" type="text" placeholder="Enter search text" oninput="searchText()">
+        </div>
+        <div id="products-con">
+        </div>
+        <input id="buy" type="button" value="Buy" onclick="buyProducts()">
+    </div>
+    <div id="message-con">
+        <input id="close-message" type="button" value="X" onclick="hideMessage()">
+        <p id="message"></p>
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="products.js"></script>
+</body>
+
+</html>

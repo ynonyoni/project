@@ -1,0 +1,28 @@
+#message-con {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 160px;
+    top: 50%;
+    left: 50%;
+    border: #ec981b 2px solid;
+    padding: 10px;
+    display: none;
+    background-color: #f7f6f4;
+}
+
+#close-message {
+    width: 24px;
+    border: none;
+    cursor: pointer;
+    background-color: #f7f6f4;
+    font-size: 16px;
+    padding: 0px;
+}
+
+#message-con p {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}

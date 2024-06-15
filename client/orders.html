@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopAccessories</title>
+    <link rel="stylesheet" href="orders.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header-con">
+            <select class="select" id="select" value="" onchange="getSelectedOption()">
+                <option value="" selected>Select a name</option>
+            </select>
+            <h1>Top-Accessories</h1>
+            <input id="search" type="text" placeholder="Enter search text" oninput="searchText()">
+        </div>
+        <div id="title-con">
+            <div id="numberOfOrder" class="title">Number of order</div>
+            <div id="nameOrderer" class="title">Name of the orderer</div>
+        </div>
+    </div>
+
+    <script src="orders.js"></script>
+</body>
+
+</html>
